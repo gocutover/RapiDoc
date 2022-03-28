@@ -29593,7 +29593,7 @@ customElements.define('json-tree', JsonTree);
   display: none;
 }
 .collapsed-descr .tr {
-  max-height:20px;
+  // max-height:20px;
 }
 
 .tr.xxx-of{
@@ -29726,7 +29726,7 @@ class SchemaTree extends lit_element_s {
         background-color:var(--hover-color);
       }
       .collapsed-descr .tr {
-        max-height:calc(var(--font-size-small) + 8px);
+        //max-height:calc(var(--font-size-small) + 8px);
       }
       .collapsed-descr .m-markdown-small p {
         line-height:calc(var(--font-size-small) + 6px);
@@ -31784,7 +31784,7 @@ class SchemaTable extends lit_element_s {
         width: 150px;
       }
       .collapsed-descr .tr {
-        max-height: calc(var(--font-size-small) + var(--font-size-small) + 4px);
+        //max-height: calc(var(--font-size-small) + var(--font-size-small) + 4px);
       }
 
       .obj-toggle {
@@ -42161,7 +42161,7 @@ Prism.languages.js = Prism.languages.javascript;
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("39d6d0ba31bb9af7d036")
+/******/ 		__webpack_require__.h = () => ("de0eb979a59d92fbfa6e")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

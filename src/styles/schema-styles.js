@@ -39,7 +39,7 @@ export default css`
   display: none;
 }
 .collapsed-descr .tr {
-  max-height:20px;
+  // max-height:20px;
 }
 
 .tr.xxx-of{

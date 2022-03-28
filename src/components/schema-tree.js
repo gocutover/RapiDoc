@@ -42,7 +42,7 @@ export default class SchemaTree extends LitElement {
         background-color:var(--hover-color);
       }
       .collapsed-descr .tr {
-        max-height:calc(var(--font-size-small) + 8px);
+        //max-height:calc(var(--font-size-small) + 8px);
       }
       .collapsed-descr .m-markdown-small p {
         line-height:calc(var(--font-size-small) + 6px);

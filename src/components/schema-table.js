@@ -55,7 +55,7 @@ export default class SchemaTable extends LitElement {
         width: 150px;
       }
       .collapsed-descr .tr {
-        max-height: calc(var(--font-size-small) + var(--font-size-small) + 4px);
+        //max-height: calc(var(--font-size-small) + var(--font-size-small) + 4px);
       }
 
       .obj-toggle {
